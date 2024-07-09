@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.Card2{
+    position: absolute;
+    z-index: 2;
+    top: 175px; 
+    left: 103px;
+    width: 1190px;
+    height: 1100px;
+    background:#1B1D1F ;
+    border-radius: 15px;
+    color: #FEF7EE;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+   text-align: center;
+
+}
+
+
+.text_card2{
+    text-align: center;
+    width: 490px;
+    position: relative;
+    left: 350px;
+    font-family: "DM Sans", sans-serif;
+    color: #6F757C;
+    top: 120px;
+}
+
+.header_text_card2{
+    font-family: "DM Sans", sans-serif;
+    position: relative;
+    top:130px;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Card2 {
+    width: 90%;
+    left: 5%;
+    height: auto;
+    top: 150px;
+  }
+  .text_card2 {
+    width: 80%;
+    left: 10%;
+    top: 100px;
+  }
+  .header_text_card2 {
+    top: 110px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .Card2 {
+    width: 95%;
+    left: 2.5%;
+    height: auto;
+    top: 120px;
+  }
+  .text_card2 {
+    width: 90%;
+    left: 5%;
+    top: 80px;
+  }
+  .header_text_card2 {
+    top: 90px;
+  }
+}
+
+
+@media (max-width: 575px) {
+  .Card2 {
+    width: 100%;
+    left: 0;
+    height: auto;
+    top: 100px;
+  }
+  .text_card2 {
+    width: 90%;
+    left: 5%;
+    top: 60px;
+    font-size: 14px;
+  }
+  .header_text_card2 {
+    top: 70px;
+    font-size: 18px;
+  }
+}

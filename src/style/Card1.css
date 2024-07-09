@@ -1,0 +1,48 @@
+.bg-img{
+max-width: 100vw;
+max-height: 100vh;
+overflow: hidden;
+}
+.img{
+width: 100vw;
+height: auto;
+display: block;
+}
+
+.bg-color{
+    background:#111315;
+    width: 100vw;
+    height: 1000vh;
+}
+.Card1{
+    position: absolute;
+    z-index: 1;
+}
+
+
+@media (min-width: 992px) {
+    .bg-color {
+      height: 100vh; 
+    }
+  }
+  
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .bg-color {
+      height: 100vh; 
+    }
+  }
+  
+  
+  @media (min-width: 576px) and (max-width: 767px) {
+    .bg-color {
+      height: 100vh; 
+    }
+  }
+  
+  
+  @media (max-width: 575px) {
+    .bg-color {
+      height: 100vh; 
+    }
+  }
